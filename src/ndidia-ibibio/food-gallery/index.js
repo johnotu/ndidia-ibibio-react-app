@@ -1,10 +1,11 @@
 import React from 'react';
 import { Card, CardImg, CardBody, CardTitle, CardSubtitle, CardText, Button } from 'reactstrap';
+import { Link } from 'react-router-dom';
 
-const Gallery = props => {
+const FoodGallery = props => {
   return (
     <main role="main">
-      <div className="container gallery">
+      <div className="container page-content">
 
         <div className="row">
 
@@ -21,13 +22,14 @@ const Gallery = props => {
 
           <div className="col-lg-4">
 
-
+            <Link to="/afang">
             <Card className="text-center">
               <CardImg top width="100%" src="https://i.postimg.cc/Vk812NFQ/Nigerian-Vegetable-Soup-edit.jpg" alt="Card image cap" />
               <CardBody>
                 <CardTitle className="font-weight-bold food-red">Edikan Ikong</CardTitle>
               </CardBody>
-            </Card>
+              </Card>
+            </Link>
           </div>
         </div>
       </div>
@@ -35,4 +37,4 @@ const Gallery = props => {
   );
 }
 
-export default Gallery;
+export default FoodGallery;

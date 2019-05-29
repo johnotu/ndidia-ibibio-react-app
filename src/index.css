@@ -5,10 +5,20 @@ body {
   background-color: #ecf0f1
 }
 
-.gallery {
+.page-content {
   margin-top: 40px;
 }
 
 .food-red {
   color: #e74c3c;
+}
+
+.food-card {
+  width: 60%;
+}
+
+@media (max-width: 575.98px) {
+  .food-card {
+    width: 100%;
+  }
 }
