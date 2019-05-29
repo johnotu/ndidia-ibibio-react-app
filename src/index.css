@@ -1,0 +1,14 @@
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #2c3e50;
+  background-color: #ecf0f1
+}
+
+.gallery {
+  margin-top: 40px;
+}
+
+.food-red {
+  color: #e74c3c;
+}
