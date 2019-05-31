@@ -14,7 +14,7 @@ body {
 }
 
 .food-card {
-  width: 60%;
+  width: 40%;
 }
 
 @media (max-width: 575.98px) {
