@@ -3,6 +3,6 @@ import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 
-import NdidiaIbibio from './ndidia-ibibio';
+import AfricanFood from './african-food';
 
-ReactDOM.render(<NdidiaIbibio />, document.getElementById('root'));
+ReactDOM.render(<AfricanFood />, document.getElementById('root'));

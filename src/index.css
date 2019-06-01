@@ -9,12 +9,13 @@ body {
   margin-top: 40px;
 }
 
-.food-red {
-  color: #e74c3c;
-}
-
 .food-card {
   width: 40%;
+}
+
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+  color: #2c3e50;
 }
 
 @media (max-width: 575.98px) {

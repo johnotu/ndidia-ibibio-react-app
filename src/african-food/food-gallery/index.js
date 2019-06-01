@@ -26,7 +26,8 @@ const FoodGallery = props => {
             <Card className="text-center">
               <CardImg top width="100%" src="https://i.postimg.cc/Vk812NFQ/Nigerian-Vegetable-Soup-edit.jpg" alt="Card image cap" />
               <CardBody>
-                <CardTitle className="font-weight-bold food-red">Edikan Ikong</CardTitle>
+                  <CardTitle className="font-weight-bold text-decoration-none">Edikan Ikong</CardTitle>
+                  <CardText></CardText>
               </CardBody>
               </Card>
             </Link>
