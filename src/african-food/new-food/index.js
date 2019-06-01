@@ -17,12 +17,12 @@ export default class NewFood extends Component {
     return (
       <div className="container page-content">
         <FormGroup>
-          <Label for="exampleEmail">Email</Label>
-          <Input type="email" name="email" id="exampleEmail" placeholder="with a placeholder" />
+          <Label for="name">Name</Label>
+          <Input type="text" name="name" id="name" placeholder="Enter name of food" />
         </FormGroup>
         <FormGroup>
-          <Label for="examplePassword">Password</Label>
-          <Input type="password" name="password" id="examplePassword" placeholder="password placeholder" />
+          <Label for="description">Description</Label>
+          <Input type="text" name="description" id="description" placeholder="Enter food description" />
         </FormGroup>
       </div>
     );
