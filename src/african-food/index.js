@@ -5,6 +5,7 @@ import axios from 'axios';
 import NavBar from './navbar';
 import FoodGallery from './food-gallery';
 import Food from './food';
+import NewFood from './new-food';
 
 export default class AfricanFood extends Component {
   constructor(props) {
@@ -36,8 +37,9 @@ export default class AfricanFood extends Component {
     return (
       <Router>
         <NavBar />
-        <Route path="/" exact render={props => <FoodGallery food={food} />} />
-        <Route path="/:id" render={props => <Food {...props} food={food} />} />
+        <Route path="/food" exact render={props => <FoodGallery food={food} />} />
+        <Route path="/food/:id" render={props => <Food {...props} food={food} />} />
+        <Route path="/new-food" exact component={NewFood} />
       </Router>
     );
   }
